@@ -37,7 +37,7 @@ Key insights from the exploratory data analysis:
 The preprocessing pipeline includes:
 
 - **Tf-idf Vectorization**: Converts the text data into numerical features, scaling word counts based on their importance.
-- **Stop Word Removal**: Common Italian words like "of," "the," "that" were removed.
+- **Stop Word Removal**: Common words like "of," "the," "that" were removed.
 - **Stemming**: Porter Stemmer was applied to reduce words to their root forms.
 - **Emoji Processing**: Emojis were handled based on sentiment, with positive/negative emojis replaced by placeholder strings.
 - **Normalization**: Each document vector is normalized to L2 norm=1.
