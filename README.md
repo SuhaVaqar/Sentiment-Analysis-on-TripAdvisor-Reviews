@@ -7,9 +7,13 @@ This repository contains a sentiment analysis project based on reviews from Trip
 This project uses a Tf-idf vectorizer for text feature extraction and explores various classification models, including:
 
 Random Forest
+
 Naive Bayes (Multinomial and Complement)
+
 Linear Support Vector Classifier (LinearSVC)
+
 KNearestNeighbors (KNN)
+
 Through thorough hyperparameter tuning and cross-validation, the best-performing model, LinearSVC, achieves an accuracy of 97.03% on the development set, and 97.55% on unseen data.
 
 Dataset
